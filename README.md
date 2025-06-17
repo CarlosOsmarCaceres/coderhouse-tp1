@@ -78,27 +78,6 @@ http://localhost:8080
   }
   ```
 
-- `PUT /api/products/:pid`  
-  Actualiza los campos de un producto.
-
-- `DELETE /api/products/:pid`  
-  Elimina un producto por ID.
-
----
-
-### 🛒 Carritos (`/api/carts`)
-
-- `POST /api/carts`  
-  Crea un nuevo carrito.
-
-- `GET /api/carts/:cid`  
-  Lista los productos de un carrito específico.
-
-- `POST /api/carts/:cid/product/:pid`  
-  Agrega un producto al carrito (o incrementa su cantidad si ya está). No requiere body.
-
----
-
 ## 💾 Persistencia
 
 Toda la información se guarda en archivos JSON:
@@ -106,16 +85,10 @@ Toda la información se guarda en archivos JSON:
 - `products.json`: guarda los productos
 - `carts.json`: guarda los carritos
 
----
-
-## ⚠️ Notas
-
-- El campo `id` se autogenera usando `Date.now().toString()`.
-- El proyecto **no sube la carpeta `node_modules`** ya que está incluida en `.gitignore`.
 
 ---
 
 ## 👨‍💻 Autor
 
-Entrega realizada por **Omar Cáceres**  
+Entrega realizada por **Carlos Osmar Cáceres**  
 Curso de **Backend Node.js**
