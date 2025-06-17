@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1750133491309",
+    "title": "Teclado mecánico",
+    "description": "Teclado con retroiluminación",
+    "code": "TK123",
+    "price": 12000,
+    "status": true,
+    "stock": 10,
+    "category": "periféricos",
+    "thumbnails": [
+      "img1.jpg",
+      "img2.jpg"
+    ]
+  },
+  {
+    "id": "1750133683839",
+    "title": "Monito Curvo 2b",
+    "description": "Monitor Curvo Full hd",
+    "code": "TK124",
+    "price": 800000,
+    "status": true,
+    "stock": 15,
+    "category": "Monitor 2b",
+    "thumbnails": [
+      "img1.jpg",
+      "img2.jpg"
+    ]
+  }
+]
